@@ -53,19 +53,21 @@ https://www.geeksforgeeks.org/how-to-create-a-pull-request-in-github/?ref=gcse_o
 ### Some active and practical project work images has been shown below:
 
 * Cloning A repo from GitHub to Local Machine using Visual Studio Code Terminal
-![1 Clone A repo from GitHub to Local Machine](https://github.com/user-attachments/assets/6740e268-5d88-45e2-a751-6b8d694993a3)
+
+![1](https://github.com/user-attachments/assets/e13f178b-d4db-489b-b7e4-5a2d64542d82)
 
 * Cloned and initiate the repo in local machine
-![2 Cloned and initiate in local Git](https://github.com/user-attachments/assets/75da93b8-c608-4705-a0c8-4d61c677f1dc)
+![2](https://github.com/user-attachments/assets/419f260b-7db0-4d7b-b389-5b8c8da6e454)
 
 * New project .txt file created in repo on the local machine
-![3 New file created on repo](https://github.com/user-attachments/assets/d3356b64-6a19-4a7f-9d9c-04a9f35566ba)
+ 
+![3](https://github.com/user-attachments/assets/44d274ce-8dd6-412b-8c01-76606fe0312d)
 
 * New project.txt file Push in Github
-![4 new  txt file push in Github Repo](https://github.com/user-attachments/assets/db89f0ca-9f05-4481-a05c-e3b915fe749a)
+
 
 * A Basic Kanban Project Board Created
-![5 A basic kanban Project Board](https://github.com/user-attachments/assets/1fddbc37-16a4-461a-ad12-aa06507a877e)
+
 
 
 
