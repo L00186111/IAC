@@ -5,7 +5,7 @@ Terraform is an open-source system of infrastructure as code (IaC) tool develope
 
 Imagine you are a DevOp’s engineer and your only job is to create an S3 bucket on the AWS platform which seems pretty simple. One way to do this is, to go to aws console and enter your username and password authenticate with AWS, search for S3 service, and fill in a few inputs like name of the bucket, private or public etc., but if we need 100 or more of buckets file then must be a programmatic approach rather manually.
 
-Hence, we know — we can use AWS CLI or API any scripting language that we are familiar with like HSL(HasiCorp) or simply any shell language that we know. API by AWS can be used to ease up the work a lot. Yes, also we need to create vpc, ec2 and S3 buckets as well to use Terraform.
+Hence, we know we can use AWS CLI or API any scripting language that we are familiar with like HSL(HasiCorp) or simply any shell language that we know. API by AWS can be used to ease up the work a lot. Yes, also we need to create vpc, ec2 and S3 buckets as well to use Terraform.
 
 Aws also provide CFT (cloud formation template) who don’t have much programming knowledge to do connections either in json or yaml scripting language.	
 
