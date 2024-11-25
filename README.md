@@ -155,9 +155,11 @@ In the end, Terraform better enables organizations to be more agile, scalable an
 
 * Creating a TerraformDemo1 directory and intiate.
 ![1](https://github.com/user-attachments/assets/e13f178b-d4db-489b-b7e4-5a2d64542d82)
-* Cloned and initiate the repo in local machine
+
+* Launch terraform plan & Apply in local machine
 ![2](https://github.com/user-attachments/assets/419f260b-7db0-4d7b-b389-5b8c8da6e454)
-* New project .txt file created in repo on the local machine
+
+* create a new file in Terraformdirectory in local machine
 ![3](https://github.com/user-attachments/assets/44d274ce-8dd6-412b-8c01-76606fe0312d)
 
 * New project.txt file Push in Github
