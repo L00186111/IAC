@@ -65,11 +65,12 @@ In the end, Terraform better enables organizations to be more agile, scalable an
 ## References
 * K. Kim, J. Humble, P. Debois, J. Willis, N. Forsfren (2021). The DevOps Handbook, 2nd Edition. IT Revolution.
 
-* Panel, E. (2019) ‘12 Tips To Smoothly Migrate Your Company's Team To A New Software Platform’, Forbes, 3rd April. [online] Available at: https://www.forbes.com/councils/forbestechcouncil/2019/04/03/12-tips-to-smoothly-migrate-your-companys-team-to-a-new-software-platform/
-[Accessed 22 Nov. 2024].
+* Panel, E. (2019) ‘12 Tips To Smoothly Migrate Your Company's Team To A New Software Platform’, Forbes, 3rd April. [online] Available at: https://www.forbes.com/councils/forbestechcouncil/2019/04/03/12-tips-to-smoothly-   migrate-your-companys-team-to-a-new-software-platform/
+  [Accessed 22 Nov. 2024].
 
-Get Started - AWS: Build, change, and destroy AWS infrastructure using Terraform. Step-by-step, command-line tutorials will walk you through the Terraform basics for the first time. [online] Available at: https://developer.hashicorp.com/terraform/tutorials/aws-get-started 
-[Accessed 22 Nov. 2024].
+* Get Started - AWS: Build, change, and destroy AWS infrastructure using Terraform. Step-by-step, command-line tutorials will walk you through the Terraform basics for the first time. [online] Available at: 
+  https://developer.hashicorp.com/terraform/tutorials/aws-get-started 
+  [Accessed 22 Nov. 2024].
 
 Terraform, n.d. Get Started - AWS: Build, change, and destroy AWS infrastructure using Terraform. Step-by-step, command-line tutorials will walk you through the Terraform basics for the first time. [online] Available at: https://developer.hashicorp.com/terraform/tutorials/aws-get-started [Accessed 22 Nov. 2024].
 Terraform, n.d. Terraform Language Documentation: Use the Terraform configuration language to describe the infrastructure that Terraform manages. [online] Available at: https://developer.hashicorp.com/terraform/language?product_intent=terraform 
