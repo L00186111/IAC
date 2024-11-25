@@ -53,7 +53,60 @@ Use terraform plan frequently to find drift between desired and current state of
 
 ## Governance & Legal Consideration for Terraform
 
-## Regulatory & Compliance for Terraform 
+### Governance (Centralized Policy Management)
+
+• Policies on Terraform plans can be enforced with Sentinel by HashiCorp or using Open Policy Agent (OPA).
+
+• Policy related to enabling encryption at rest in storage services, tagging policy standards or network isolation Access Control.
+
+• Restrict privileges to the Terraform code repo and remote state backend.
+• Include Identity and Access Management (IAM) Role & Permissions management system Change Management. In other words, approval workflows for Terraform changes should be in place at the very least when you are working with production.
+
+• Is mandatory to maintain an audit trail of updates made for compliance reasons.
+
+• Environment Segregation. Keep terraform state file and config isolated for Multiple environment (poc, dev,test, production).Use Naming Conventions to Differentiate Environments.
+• Documentation and Training. Documentation of Terraform configurations and processes Train your teams on Terraform usage, security and compliance.
+
+### Legal Consideration:
+
+• Cloud Provider Agreements
+Keep an eye on the terms of service of the different providers where terraform gets deployed. Obey any limitations regarding automated provisioning
+
+• Licensing
+When you use Terraform and any of its modules, you are agreeing to the license grant for which they come with (Terraform Enterprise is covered under HashiCorp's Business Source License).
+
+• Intellectual Property
+Store in private repos all Terraform modules and configuration SETTINGS that are proprietary. Third-party module you use have copyright and attribution requirement? Respect it. Third-Party Dependencies. Scope and validate third party modules for both legal and identity risk prior to using. This by rapid manner reminds the IT team to examine any licenses in use and compliance with agreements made at purchase time.
+
+## Regulatory & Compliance for Terraform
+
+### Regulatory such as:
+
+Data Residency
+•	Meet data residency needs, and take care on Terraform state files as they can contain secrets
+Auditing and Logging
+•	Audit logs of What terraform does in more detail
+•	Utilize Logging for meeting compliance needs (ex. GDPR, HIPAA, or SOC 2).
+Encryption
+•	Encrypt everything — Terraform state files as well as all sensitive data in flight and at rest. Make sure the encryption is proven (AES-256).
+Compliance Frameworks
+•	Match Terraform-managed infrastructure with compliance frameworks such as ISO 27001, NIST, PCI-DSS or SOC 2
+
+Compliance such as:
+Policy as Code
+•	Implement compliance checks by using Sentinel and OPA, or any other policy-as-code solution.Examples:
+1.	Use only from registered areas.
+2.	Prevent storage buckets which are unencrypted
+
+Infrastructure Compliance Audits
+•	Audit Terraform configurations periodically to validate adherence to internal and external compliance.
+Compliance Monitoring Automation
+•	Incorporate Checkov or any other tools available like Bridgecrew as part of your CI/CD pipeline to scan Terraform code for any compliance violations.
+Incident Response
+•	Create a process for responding to security incidents or misconfigurations found in your Terraform-controlled infrastructure.
+•	Prepare for future by constantly reviewing and amending incident response plans.
+Continuous Compliance
+•	Track compliance status over time by integrating with tools such as Cloud Custodian, or AWS Config for Terraform provisioned resources.
 
 ## Conclusions
 Wrap UpLike I said, Terraform has become a truly flexible and one-maintenance wonders on managing your infrastructure as code (IaC) level. The fact that it enables multi-cloud compatibility, declarative syntax, and end-to-end infrastructure provisioning makes DevOps professionals prefer this tool. Terraform's rich ecosystem, state management and integrability with other tools allow for complex workflows to be simplified while also automating & replicating at high levels.
@@ -100,7 +153,7 @@ In the end, Terraform better enables organizations to be more agile, scalable an
 
 ### Some active and practical project work images has been shown below:
 
-* Cloning A repo from GitHub to Local Machine using Visual Studio Code Terminal
+* Creating a TerraformDemo1 directory and intiate.
 ![1](https://github.com/user-attachments/assets/e13f178b-d4db-489b-b7e4-5a2d64542d82)
 * Cloned and initiate the repo in local machine
 ![2](https://github.com/user-attachments/assets/419f260b-7db0-4d7b-b389-5b8c8da6e454)
