@@ -72,25 +72,27 @@ In the end, Terraform better enables organizations to be more agile, scalable an
   https://developer.hashicorp.com/terraform/tutorials/aws-get-started 
   [Accessed 22 Nov. 2024].
 
-Terraform, n.d. Get Started - AWS: Build, change, and destroy AWS infrastructure using Terraform. Step-by-step, command-line tutorials will walk you through the Terraform basics for the first time. [online] Available at: https://developer.hashicorp.com/terraform/tutorials/aws-get-started [Accessed 22 Nov. 2024].
-Terraform, n.d. Terraform Language Documentation: Use the Terraform configuration language to describe the infrastructure that Terraform manages. [online] Available at: https://developer.hashicorp.com/terraform/language?product_intent=terraform 
-[Accessed 22 Nov. 2024].
+* Terraform, n.d. Get Started - AWS: Build, change, and destroy AWS infrastructure using Terraform. Step-by-step, command-line tutorials will walk you through the Terraform basics for the first time. [online] Available 
+  at: https://developer.hashicorp.com/terraform/tutorials/aws-get-started [Accessed 22 Nov. 2024].
+  Terraform, n.d. Terraform Language Documentation: Use the Terraform configuration language to describe the infrastructure that Terraform manages. [online] Available at: 
+  https://developer.hashicorp.com/terraform/language?product_intent=terraform 
+  [Accessed 22 Nov. 2024].
 
-Terraform, n.d. Stacks. [online] Available at: https://developer.hashicorp.com/terraform/cdktf/concepts/stacks 
-[Accessed 22 Nov. 2024].
+* Terraform, n.d. Stacks. [online] Available at: https://developer.hashicorp.com/terraform/cdktf/concepts/stacks 
+  [Accessed 22 Nov. 2024].
 
-Terraform, n.d. Stacks Overview. [online] Available at: https://developer.hashicorp.com/terraform/language/stacks
-[Accessed 22 Nov. 2024].
+* Terraform, n.d. Stacks Overview. [online] Available at: https://developer.hashicorp.com/terraform/language/stacks
+  [Accessed 22 Nov. 2024].
 
-GitHub, n.d. Terraform-provider-aws. [online] Available at: 
-https://github.com/hashicorp/terraform-provider-aws
-[Accessed 22 Nov. 2024].
+* GitHub, n.d. Terraform-provider-aws. [online] Available at: 
+  https://github.com/hashicorp/terraform-provider-aws
+  [Accessed 22 Nov. 2024].
 
-Terraform, n.d. Automate Infrastructure on Any Cloud. [online] Available at: https://developer.hashicorp.com/terraform?product_intent=terraform
-[Accessed 12 Nov. 2024].
+* Terraform, n.d. Automate Infrastructure on Any Cloud. [online] Available at: https://developer.hashicorp.com/terraform?product_intent=terraform
+  [Accessed 12 Nov. 2024].
 
-Wagh, R., 2021. Terraform Explained: Getting started with terraform on AWS and Google Cloud. YouTube. [online] Available at: https://www.youtube.com/playlist?list=PL7iMyoQPMtAOz187ezONf7pL8oGZRobYl
-[Accessed 21 Nov. 2024].
+* Wagh, R., 2021. Terraform Explained: Getting started with terraform on AWS and Google Cloud. YouTube. [online] Available at: https://www.youtube.com/playlist?list=PL7iMyoQPMtAOz187ezONf7pL8oGZRobYl
+  [Accessed 21 Nov. 2024].
 
 
 
