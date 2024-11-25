@@ -1,4 +1,4 @@
- Overview of steps
+## Overview of steps
 
 Create a directory for your Terraform project and create a Terraform configuration file (usually named `main.tf`) in that directory. In this file, you define the AWS provider and resources you want to create. Here's a basic example:
 
@@ -13,7 +13,7 @@ Create a directory for your Terraform project and create a Terraform configurati
    }
 ```
 
-## Initialize Terraform**
+## Initialize Terraform
 
 In your terminal, navigate to the directory containing your Terraform configuration files and run:
 
