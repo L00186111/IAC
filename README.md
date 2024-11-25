@@ -24,42 +24,74 @@ Terraform employs HCL, which is a language that can be easily read and written b
 
 
 ## Code Best Practices for Terraform
+While it is true that terraform has less complexity than other coding languages, there are still some best practices need to be followed when working with terraform.
 
-## Results 
+•	Version Control
+Version your terraform configurations with something like git. One way of keeping your Terraform code reproducible and traceable is by tagging releases.
 
-### Key Results of Using GitHub:
+•	State Management
+Terraform state should be kept securely remote state backends (such as AWS S3 + DynamoDB for Locking) State locking so that no two updates can take place at once. If you share state files manually, be aware that there is a risk of state file corruption.
+
+•	Modularization
+Organize Terraform as modules Be explicit about outputs and variables in each module clarify interfaces.
+
+•	Code Review and Testing
+Use code reviews for Terraform changes (i.e. pull request) For syntax and style checks, we rely on tools like terraform validate, tflint. Apply unit tests (using tools like Terratest or Checkov) to test the defined Terraform modules.
+
+•	Principle of Least Privilege
+Set up and use service accounts for Terraform with minimal permission needed Don't hardcode sensitive values; use ENV vars, secret management (HashiCorp Vault)
+
+•	Version Pinning
+In the Terraform configuration, pin provider and module versions to ensure builds are predictable.
+
+•	Secrets Management
+Use password less logins or store passwords securely with AWS Secrets Manager or Azure Key Vault Ensure that .tfstate files are also usually encrypted because they have a lot of sensitive information.
+
+•	Drift Detection
+Use terraform plan frequently to find drift between desired and current state of infrastructure. Consistent consistency appears when you treat drift instantly.
+
+
+## Governance & Legal Consideration for Terraform
+
+## Regulatory & Compliance for Terraform 
 
 ## Conclusions
+Wrap UpLike I said, Terraform has become a truly flexible and one-maintenance wonders on managing your infrastructure as code (IaC) level. The fact that it enables multi-cloud compatibility, declarative syntax, and end-to-end infrastructure provisioning makes DevOps professionals prefer this tool. Terraform's rich ecosystem, state management and integrability with other tools allow for complex workflows to be simplified while also automating & replicating at high levels.
 
+In addition to it, following the best practices like versioning, modularize terraform code, state management and compliance audit helps you use terraform efficiently as well as securely. Such practices not just improve the reliability of infrastructure but also bring them into line with organizational and regulatory standards. With its plan-and-apply approach, state-level compliance checks, and continued improvement with Drift Detection, teams can manage and scale infrastructure without fear.
 
+In the end, Terraform better enables organizations to be more agile, scalable and governed in how they manage their infrastructure, making it a staple of modern DevOps.
 
 ## References
 * K. Kim, J. Humble, P. Debois, J. Willis, N. Forsfren (2021). The DevOps Handbook, 2nd Edition. IT Revolution.
 
-*	“About Project” Projects is an adaptable, flexible tool for planning and tracking work on GitHub. [online] Available at:
-https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects 
-[Accessed 28 Oct 2024].
+* Panel, E. (2019) ‘12 Tips To Smoothly Migrate Your Company's Team To A New Software Platform’, Forbes, 3rd April. [online] Available at: https://www.forbes.com/councils/forbestechcouncil/2019/04/03/12-tips-to-smoothly-migrate-your-companys-team-to-a-new-software-platform/
+[Accessed 22 Nov. 2024].
 
-* “Planning and tracking with Projects” Build adaptable projects to track your work on GitHub. [online] Available at:
-https://docs.github.com/en/issues/planning-and-tracking-with-projects
- [Accessed 28 Oct 2024].
+Get Started - AWS: Build, change, and destroy AWS infrastructure using Terraform. Step-by-step, command-line tutorials will walk you through the Terraform basics for the first time. [online] Available at: https://developer.hashicorp.com/terraform/tutorials/aws-get-started 
+[Accessed 22 Nov. 2024].
 
-*	Goobar (2024). “GitHub Project Management: Create GitHub Project Board & Automations 2024” Youtube. [online] Available at:
-https://www.youtube.com/watch?v=oPQgFxHcjAw 
-[Accessed 29 Oct 2024].
+Terraform, n.d. Get Started - AWS: Build, change, and destroy AWS infrastructure using Terraform. Step-by-step, command-line tutorials will walk you through the Terraform basics for the first time. [online] Available at: https://developer.hashicorp.com/terraform/tutorials/aws-get-started [Accessed 22 Nov. 2024].
+Terraform, n.d. Terraform Language Documentation: Use the Terraform configuration language to describe the infrastructure that Terraform manages. [online] Available at: https://developer.hashicorp.com/terraform/language?product_intent=terraform 
+[Accessed 22 Nov. 2024].
 
-*	Mickey Gousset (2020). “Introduction to GitHub Project: Boards” Youtube. [online] Available at:
-https://www.youtube.com/watch?v=idZyqNIrt84 
-[Accessed 29 Oct 2024].
+Terraform, n.d. Stacks. [online] Available at: https://developer.hashicorp.com/terraform/cdktf/concepts/stacks 
+[Accessed 22 Nov. 2024].
+
+Terraform, n.d. Stacks Overview. [online] Available at: https://developer.hashicorp.com/terraform/language/stacks
+[Accessed 22 Nov. 2024].
+
+GitHub, n.d. Terraform-provider-aws. [online] Available at: 
+https://github.com/hashicorp/terraform-provider-aws
+[Accessed 22 Nov. 2024].
+
+Terraform, n.d. Automate Infrastructure on Any Cloud. [online] Available at: https://developer.hashicorp.com/terraform?product_intent=terraform
+[Accessed 12 Nov. 2024].
+
+Wagh, R., 2021. Terraform Explained: Getting started with terraform on AWS and Google Cloud. YouTube. [online] Available at: https://www.youtube.com/playlist?list=PL7iMyoQPMtAOz187ezONf7pL8oGZRobYl
+[Accessed 21 Nov. 2024].
 
 
-*	Cognitive Programmer (2020). “Git Branches: Creating and Managing Branches in git Using Git Branch, Git merge and Git Checkout” Youtube. [online] Available at:
-https://www.youtube.com/watch?v=oq1FGRTOFBw 
-[Accessed 27 Oct 2024].
-
-*	Geeks for Geeks (2024). “How To Create a Pull Request in GitHub?”. [online] Available at:
-https://www.geeksforgeeks.org/how-to-create-a-pull-request-in-github/?ref=gcse_outind 
-[Accessed 30 Oct 2024].
 
 ## Appendices
 
