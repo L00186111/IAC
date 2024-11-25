@@ -163,10 +163,6 @@ In the end, Terraform better enables organizations to be more agile, scalable an
 * create a new file in Terraformdirectory in local machine
 ![3](https://github.com/user-attachments/assets/44d274ce-8dd6-412b-8c01-76606fe0312d)
 
-* New project.txt file Push in Github
-
-
-* A Basic Kanban Project Board Created
 
 
 
